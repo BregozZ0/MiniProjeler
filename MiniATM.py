@@ -2,10 +2,10 @@
 # 1-) Güncel bakiyeyi göstersin
 # 2-) Para çekme
 # 3-) Para yatırma
-# 'q' bastığı zaman çıkış yapsın
+# 4-) bastığı zaman çıkış yapsın
 
 # Kullanıcıdan yapmak istediği işlem için input alıyoruz.
-print(" 1-) Güncel bakiyeyi göstersin\n 2-) Para çekme\n 3-) Para yatırma ")
+print(" 1-) Güncel bakiyeyi göstersin\n 2-) Para çekme\n 3-) Para yatırma\n 4-)Çıkış yap ")
 secim = input("Yapmak istediğiniz işlemi seçiniz : ")
 bakiye = 1000
 
@@ -21,7 +21,7 @@ elif secim == "2":
 elif secim == "3":
     yatirilacak_tutar = int(input("Yatırmak istediğiniz miktarı yazınız : "))
     print("Güncel bakiye : ", (yatirilacak_tutar+bakiye))
-elif secim == "q":
+elif secim == "4":
     print("ATM uygulamasından çıkış yapılıyor ...")
 else:
     print("Lütfen işleminizi seçiniz!!!")
