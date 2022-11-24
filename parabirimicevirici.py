@@ -5,6 +5,8 @@ print("4-) EURO to TRY")
 print("5-) Çıkış yap")
 secim = input("İşlem seçiniz : ")
 
+# Uygulamayı yaptığımda dolar ve euro bu kadardı sizin baktığınız zaman kur yükselmiş olabilir.
+
 if secim == "1":
     islem1 = int(input("Çevirmek istediğiniz türk lirası miktarını giriniz : "))
     trytodolar = islem1 / 18.62
