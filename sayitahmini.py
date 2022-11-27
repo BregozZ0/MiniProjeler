@@ -13,3 +13,6 @@ while can > 0:
     elif random_sayi != tahmin:
         can -= 1
         print("Yanlış, deneme hakkınız : ", can)
+
+    if can == 0:
+        print("Hakkınız biti, doğru cevap : ", random_sayi)
