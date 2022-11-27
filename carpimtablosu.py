@@ -1,5 +1,11 @@
 import random
 
+# zorluğu seçmek için değişken
+print("1-) Kolay seviye")
+print("2-) Orta seviye")
+print("3-) Zor seviye")
+zorluk_secimi = input("Seçiminizi giriniz : ")
+
 while True:
 
     # Kolay tablo için değişkenler
@@ -13,12 +19,6 @@ while True:
     # Zor table için değişkenler
     zor_tablo = random.randint(1, 100)
     zor_tablo2 = random.randint(1, 100)
-
-    # zorluğu seçmek için değişken
-    print("1-) Kolay seviye")
-    print("2-) Orta seviye")
-    print("3-) Zor seviye")
-    zorluk_secimi = input("Seçiminizi giriniz : ")
 
     # Kolay için if kontrolü
     if zorluk_secimi == "1":
