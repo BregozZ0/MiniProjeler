@@ -15,10 +15,13 @@ while True:
     zor_tablo2 = random.randint(1, 100)
 
     # zorluğu seçmek için değişken
-    zorluk_secimi = input("Kolay-Orta-Zor : ")
+    print("1-) Kolay seviye")
+    print("2-) Orta seviye")
+    print("3-) Zor seviye")
+    zorluk_secimi = input("Seçiminizi giriniz : ")
 
     # Kolay için if kontrolü
-    if zorluk_secimi == "Kolay":
+    if zorluk_secimi == "1":
 
         # soruyu ekrana yazar
         print(f"{kolay_tablo} x {kolay_tablo2} = ?")
@@ -35,7 +38,7 @@ while True:
         else:
             print(f"Yanlış, doğru cevap {kolay_cevap}")
 
-    if zorluk_secimi == "Orta":
+    if zorluk_secimi == "2":
 
         print(f"{orta_tablo} x {orta_tablo2} = ?")
 
@@ -48,7 +51,7 @@ while True:
         else:
             print(f"Yanlış, doğru cevap {orta_cevap}")
 
-    if zorluk_secimi == "Zor":
+    if zorluk_secimi == "3":
 
         print(f"{zor_tablo} x {zor_tablo2} = ?")
 
@@ -60,6 +63,3 @@ while True:
             print("Doğru :)")
         else:
             print(f"Yanlış, doğru cevap {zor_cevap}")
-
-
-
